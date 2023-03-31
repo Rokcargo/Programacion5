@@ -1,0 +1,20 @@
+Comandos de la Terminal:
+ pwd: Print Working Directory -> Imprimir el directorio en el que nos encontramos.
+ ls: List -> Listar elementos del directorio actual. 
+
+Comandos de Git:
+ git init: Iniciar un repositorio.
+ git status: Ver el estado de los archivos del directorio.
+ git add "nombre_archivo": Agregar archivos al repositorio.
+ git add . : Agregar todos los archivos al repositorio.
+ git config --global user.email "correo": Establecer el correo para usar Git.
+ git config --global user.name "nombreUsuario": Establecer el usuario para usar Git.
+ git commit -m "mensaje": Agregar commit a la carga de archivos que se tiene.
+ git log: Mostrar los commits realizados
+ git checkout -- "nombre_archivo": Devolver a la modificación anterior que se le realizo al archivo. (Control+Z de Git)
+ git diff "nombre_archivo": Muestra la diferencia que hay entre la versión actual y la versión anterior del archivo.
+ git branch nombre_rama: Crear una rama.
+ git checkout nombre_rama: Cambiar de rama.
+ git merge nombre_rama_combinar: Combinar la rama indicada con el Main o Master.
+
+Archivo .gitignore sirve para colocar todos los archivos que queremos que Git ignore.
